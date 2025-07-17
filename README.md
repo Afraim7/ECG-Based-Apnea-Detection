@@ -1,16 +1,23 @@
-# apnoxia
+# Apnoxia
 
-A new Flutter project.
+A Flutter-based mobile application for detecting sleep apnea using ECG signals.
 
-## Getting Started
+## 🩺 About the Project
 
-This project is a starting point for a Flutter application.
+Apnoxia allows users to upload ECG recordings and receive a segment-by-segment apnea diagnosis. The app integrates with a Flask backend that hosts a trained deep learning model for accurate classification. It uses Cubit for efficient and scalable state management.
 
-A few resources to get you started if this is your first Flutter project:
+### ⚙️ Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Upload and analyze ECG signals.
+- Deep learning model integration via Flask API.
+- Binary and multi-class apnea detection.
+- Segment-level results (1-minute epochs).
+- Clean and responsive UI with state management using Cubit.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+To run this app locally:
+
+```bash
+flutter pub get
+flutter run
